@@ -4,7 +4,7 @@
 This app is in the cloud at https://donut-world.herokuapp.com/.
 
 ## Requirements
-The user should have Python 3.8+, Requests, Flask and PyMongo installed.
+The user should have Python 3.8+, Requests, Flask, pytest and PyMongo installed.
 
 ## Startup
 To start the app, run the following command from the `DonutWorld/src` directory.
