@@ -38,9 +38,12 @@ class DonutWorld extends React.Component {
     return (
       <div className="donut_world">
         {!this.state.is_logged_in &&
-          <LoginBlock 
-            update_logged_in={(x) => this.update_logged_in(x)}
-          />
+          <div className="home_div">
+            <LoginBlock 
+              update_logged_in={(x) => this.update_logged_in(x)}
+            />
+            <img id="donut_gif" src="/static/images/spinning_donut.gif" alt="Spinning donut" />
+          </div>
         }
 
         {this.state.is_logged_in &&
