@@ -30,3 +30,19 @@
 .solve_div {
   margin-top: 18px;
 }
+
+#login_block {
+  display: block;
+  background-color: #ffffff;
+  border-radius: 22px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#donut_gif {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
