@@ -1,7 +1,7 @@
 # Donut World 🍩
 
 ## Cloud
-This app is in the cloud at https://donut-world.herokuapp.com/.
+This app used to be in the cloud at https://donut-world.herokuapp.com/.
 
 ## Requirements
 The user should have Python 3.8+, Requests, Flask, pytest and PyMongo installed.
